@@ -8,7 +8,7 @@
     "email": "support@oktio.app",
     "url": "https://oktio.app"
   },
-  "homepage": "https://about.oktio.app/docs/#mcp",
+  "homepage": "https://oktio.app",
   "license": "MIT",
   "keywords": [
     "instagram",
@@ -17,5 +17,9 @@
     "media-kit",
     "social-media"
   ],
-  "privacyPolicyUrl": "https://oktio.app/privacy-policy"
+  "privacyPolicyUrl": "https://oktio.app/privacy-policy",
+  "repository": "https://github.com/kuklisconsulting/oktio-claude-plugin",
+  "documentationUrl": "https://about.oktio.app/docs/#mcp",
+  "supportUrl": "mailto:support@oktio.app",
+  "termsOfServiceUrl": "https://oktio.app/terms-of-service"
 }
