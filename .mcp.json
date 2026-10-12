@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "oktio": {
+      "type": "http",
+      "url": "https://api.oktio.app/v1/mcp-server"
+    }
+  }
+}
