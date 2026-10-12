@@ -34,7 +34,7 @@ To disconnect, remove the connector in Claude or open Settings → Connected app
 
 The plugin itself stores nothing and runs no code on your machine. It contains Markdown instructions and the address of the Oktio.app connector, `https://api.oktio.app/v1/mcp-server`.
 
-When Claude calls a tool, the request goes to Oktio.app's API with your OAuth token, and Oktio.app returns your own account's data to Claude: Instagram insights, media kits, reports, brand leads and settings. Oktio.app records which tool was called and when, not the conversation. Oktio.app does not receive your chat history, files or memory from Claude. Write tools change data only in your Oktio.app account. Some of them publish a public page when you ask: a campaign report, your bio link page or an Oktio Verified certificate.
+When Claude calls a tool, the request goes to Oktio.app's API with your OAuth token, and Oktio.app returns your own account's data to Claude: Instagram insights, media kits, reports, brand leads and settings. Oktio.app records which tool was called and when, not the conversation. Oktio.app does not receive your chat history, files or memory from Claude. Write tools change data only in your Oktio.app account. What you ask Claude to save there, such as a brand lead with a contact name and e-mail, a campaign report or a goal, stays in your Oktio.app account until you delete it. Some of them publish a public page when you ask: a campaign report, your bio link page or an Oktio Verified certificate.
 
 Privacy policy: <https://oktio.app/privacy-policy> · Terms: <https://oktio.app/terms-of-service>
 
