@@ -1,6 +1,6 @@
 ---
 name: campaign-report
-description: Build and share a campaign report for a brand from Instagram posts tracked in Oktio. Use when the user wants to report the results of a sponsored post or campaign, summarize how a collaboration performed, or send results to a brand.
+description: Build and share a campaign report for a brand from Instagram posts tracked in Oktio.app. Use when the user wants to report the results of a sponsored post or campaign, summarize how a collaboration performed, or send results to a brand.
 ---
 
 A campaign report is a shareable page that snapshots the metrics of selected posts.
@@ -13,4 +13,4 @@ A campaign report is a shareable page that snapshots the metrics of selected pos
 
 Use `list_reports` to find an existing report instead of creating a duplicate.
 
-Creating and publishing need the write permission the user chose when connecting Oktio. If a tool answers `insufficient_scope`, the user has to reconnect the Oktio connector and allow write access. Report tools need Oktio Pro; on the free plan they answer `upgrade_required`.
+Creating and publishing need the write permission the user chose when connecting Oktio.app. If a tool answers `insufficient_scope`, the user has to reconnect the Oktio.app connector and allow write access. Report tools need Oktio Pro; on the free plan they answer `upgrade_required`.

@@ -1,9 +1,9 @@
 ---
 name: instagram-performance-review
-description: Review how an Instagram account is performing using Oktio data. Use when the user asks how their Instagram is doing, wants a weekly or monthly recap, asks which posts worked, why reach or engagement changed, or when they should post.
+description: Review how an Instagram account is performing using Oktio.app data. Use when the user asks how their Instagram is doing, wants a weekly or monthly recap, asks which posts worked, why reach or engagement changed, or when they should post.
 ---
 
-Review the account with the Oktio connector's tools. Use only numbers the tools return.
+Review the account with the Oktio.app connector's tools. Use only numbers the tools return.
 
 1. Call `get_account_overview` to see which account is connected, its plan and whether its data is fully loaded.
 2. Call `get_analytics_kpis` with `windowDays` matching the period the user asked about (7, 30 or 90; use 30 when they did not say). The result includes the previous period, so report each KPI with its change.
@@ -19,6 +19,6 @@ Write the review in this order:
 
 Keep it short. Do not paste raw JSON.
 
-On the free Oktio plan only the account overview and the 7-day KPIs are available. Other tools answer `upgrade_required`. Say once which parts are missing for that reason and review what is available.
+On the free Oktio.app plan only the account overview and the 7-day KPIs are available. Other tools answer `upgrade_required`. Say once which parts are missing for that reason and review what is available.
 
 If the overview shows the data is still loading or the user says numbers look out of date, offer `trigger_data_refresh`. It needs the write permission the user chose when connecting, and new data takes a few minutes to arrive.

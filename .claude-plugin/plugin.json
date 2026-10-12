@@ -1,10 +1,20 @@
 {
-  "name": "oktio",
-  "displayName": "Oktio",
+  "name": "oktio-app",
+  "displayName": "Oktio.app",
   "version": "1.0.0",
-  "description": "Instagram analytics and creator tools in Claude: review your performance, price and prepare brand deals, and build campaign reports from your live Oktio data.",
-  "author": { "name": "KUKLIS Consulting s.r.o.", "email": "support@oktio.app", "url": "https://oktio.app" },
+  "description": "Instagram analytics and creator tools in Claude: review your performance, price and prepare brand deals, and build campaign reports from your live Oktio.app data.",
+  "author": {
+    "name": "KUKLIS Consulting s.r.o.",
+    "email": "support@oktio.app",
+    "url": "https://oktio.app"
+  },
   "homepage": "https://about.oktio.app/docs/#mcp",
   "license": "MIT",
-  "keywords": ["instagram", "analytics", "creators", "media-kit", "social-media"]
+  "keywords": [
+    "instagram",
+    "analytics",
+    "creators",
+    "media-kit",
+    "social-media"
+  ]
 }
