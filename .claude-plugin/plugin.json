@@ -1,8 +1,8 @@
 {
   "name": "oktio-app",
   "displayName": "Oktio.app",
-  "version": "1.3.0",
-  "description": "Instagram analytics and creator tools in Claude: review your performance, price, prepare and run brand deals, build campaign reports, set up DM funnels and your Bio Link from your live Oktio.app data.",
+  "version": "1.4.0",
+  "description": "Instagram analytics and creator tools in Claude: review your performance, price, prepare and run brand deals, build media kits and campaign reports, prove your stats with Oktio Verified, set up DM funnels and your Bio Link from your live Oktio.app data.",
   "author": {
     "name": "KUKLIS Consulting s.r.o.",
     "email": "support@oktio.app",
