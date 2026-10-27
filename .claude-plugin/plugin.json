@@ -1,8 +1,8 @@
 {
   "name": "oktio-app",
   "displayName": "Oktio.app",
-  "version": "1.2.1",
-  "description": "Instagram analytics and creator tools in Claude: review your performance, price, prepare and run brand deals, build campaign reports and set up DM funnels from your live Oktio.app data.",
+  "version": "1.3.0",
+  "description": "Instagram analytics and creator tools in Claude: review your performance, price, prepare and run brand deals, build campaign reports, set up DM funnels and your Bio Link from your live Oktio.app data.",
   "author": {
     "name": "KUKLIS Consulting s.r.o.",
     "email": "support@oktio.app",
@@ -20,6 +20,6 @@
   "privacyPolicyUrl": "https://oktio.app/privacy-policy",
   "repository": "https://github.com/kuklisconsulting/oktio-claude-plugin",
   "documentationUrl": "https://about.oktio.app/docs/#mcp",
-  "supportUrl": "mailto:support@oktio.app",
+  "supportUrl": "https://about.oktio.app/docs/#support",
   "termsOfServiceUrl": "https://oktio.app/terms-of-service"
 }
