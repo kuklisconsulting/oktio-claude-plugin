@@ -24,7 +24,7 @@ Oktio.app is an analytics and creator toolkit for Instagram professional account
 ## Requirements
 
 - An Oktio.app account at [oktio.app](https://oktio.app), created by signing in with an Instagram professional (creator or business) account.
-- Oktio Pro for full access. The free plan includes the account overview, 7-day KPIs, your Oktio Verified certificate, listing and pausing auto-replies, creating, editing and pausing DM funnels (a funnel runs on Oktio Pro), listing your collaborations, and your Bio Link (an own domain and hiding the Oktio.app footer need Oktio Pro).
+- The free plan works with every tool within the free plan's own limits, as in the Oktio.app app. Comment sentiment, hashtag analysis and switching an auto-reply or a DM funnel on need Oktio Pro.
 
 ## Set up
 
