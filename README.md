@@ -14,24 +14,25 @@ Oktio.app is an analytics and creator toolkit for Instagram professional account
 
 | Component | What it does |
 | --- | --- |
-| Oktio.app connector | 68 tools over your Oktio.app data: KPIs, insight sections, posts, stories (including manually added ones), audience, follower growth, sentiment, hashtags, Rate Card, your service catalog, goals, media kits (create, duplicate, services, links, password or e-mail gate), campaign reports, Brand CRM, brand collaborations, Auto-Replies, DM funnels, Bio Link (blocks, campaign pages, statistics, link health, weekly tip) your Oktio Verified certificate with its settings and scan history, your usage limits and account preferences |
+| Oktio.app connector | 83 tools over your Oktio.app data: KPIs, insight sections, posts, stories (including manually added ones), audience, follower growth, sentiment, hashtags, Rate Card, your service catalog, goals, media kits (create, duplicate, services, links, password or e-mail gate), campaign reports (including finalising a collaboration's report with Oktio Verified), Brand CRM, brand collaborations (offer, deliverables, closing, the brand's access), Auto-Replies (create, test an AI reply, switch on, delete), DM funnels, Bio Link (blocks, campaign pages, statistics, link health, weekly tip) your Oktio Verified certificate with its settings and scan history, your usage limits and account preferences |
 | `instagram-performance-review` skill | A structured review: what changed, what worked, what to do next |
-| `brand-deal-prep` skill | Pricing from your Rate Card, audience fit, a pitch or reply, deal tracking, and the collaboration with the brand: open it, follow deliverables, message the brand after you confirm the text |
-| `campaign-report` skill | Pick the campaign posts, create the report, summarize it and share it; in a collaboration, link the posts to its deliverables and build its report |
+| `brand-deal-prep` skill | Pricing from your Rate Card, audience fit, a pitch or reply, deal tracking, and the collaboration with the brand: open it, edit the offer, add and follow deliverables, message the brand after you confirm the text, close it or end the brand's access |
+| `campaign-report` skill | Pick the campaign posts, create and edit the report, summarize it and share it; in a collaboration, link the posts to its deliverables, build its report and finalise it with Oktio Verified after you confirm |
 | `dm-funnel-setup` skill | Build a comment, story or DM keyword funnel from a template, fix what blocks it, switch it on after you confirm, and read its results |
 | `bio-link-setup` skill | Build your Bio Link page block by block, show it before saving, publish after you confirm, add a campaign page for a collaboration, and keep it healthy: statistics, broken links, the weekly tip |
 | `media-kit-builder` skill | Create or duplicate a media kit, choose its sections, show services, a Rate Card or your own prices, protect it with a password or an e-mail gate, share it and read who opened it |
+| `auto-reply-setup` skill | Set up an auto-reply to comments, direct messages or first messages, test an AI-written reply on a sample comment, switch it on after you confirm, pause or delete it |
 | `verified-profile` skill | Issue your Oktio Verified certificate, choose what it includes and where it is shown, share its link, badge or QR code, and see how often brands checked it |
 
 ## Requirements
 
 - An Oktio.app account at [oktio.app](https://oktio.app), created by signing in with an Instagram professional (creator or business) account.
-- The free plan works with every tool within the free plan's own limits, as in the Oktio.app app. Comment sentiment (and refreshing it), hashtag analysis and switching an auto-reply or a DM funnel on need Oktio Pro. When a free-plan limit is used up, the tool says so and when it resets.
+- The free plan works with every tool within the free plan's own limits, as in the Oktio.app app. Comment sentiment (and refreshing it), hashtag analysis, creating, changing and testing auto-replies, and switching an auto-reply or a DM funnel on need Oktio Pro. When a free-plan limit is used up, the tool says so and when it resets.
 
 ## Set up
 
 1. Install the plugin, then connect the Oktio.app connector from the plugin's Connectors tab. In Claude Code the connector loads with the plugin; run `/mcp` to sign in.
-2. Claude sends you to Oktio.app to sign in with Instagram and approve access. Read access is the default. Write access is a separate checkbox, needed only for tools that change something: creating a report, creating or updating a media kit, editing your service catalog or certificate settings, tracking a lead in Brand CRM, building or switching on a DM funnel, editing or publishing your Bio Link, opening a collaboration or messaging a brand in it.
+2. Claude sends you to Oktio.app to sign in with Instagram and approve access. Read access is the default. Write access is a separate checkbox, needed only for tools that change something: creating, editing or finalising a report, creating or updating a media kit, editing your service catalog or certificate settings, tracking a lead in Brand CRM, building or switching on an auto-reply or a DM funnel, editing or publishing your Bio Link, opening, editing or closing a collaboration or messaging a brand in it.
 3. Ask one of the questions above.
 
 To disconnect, remove the connector in Claude or open Settings → Connected apps in Oktio.app. Access ends immediately.
