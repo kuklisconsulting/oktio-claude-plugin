@@ -23,6 +23,6 @@ A media kit is a public page with the user's live Instagram statistics. Anyone w
 
 **Share.** `get_media_kit_links` gives the public link and how the kit is opened. The PDF is made when it is downloaded: on the kit's public page (after unlocking a protected kit) or in the Oktio.app editor. Say so instead of looking for a PDF link.
 
-**Who looked.** `get_media_kit_analytics` shows visits and where they came from. Name the result in plain words and suggest one change if the kit gets visits but no inquiries.
+**Who looked.** `list_media_kits` carries `views`, the kit's stored visits of the last 365 days, which is the quick answer to "how many opened it". `get_media_kit_analytics` shows visits and where they came from. Name the result in plain words and suggest one change if the kit gets visits but no inquiries.
 
 Before every save, show the user what changes. If a tool answers `upgrade_required` (for example `hideFooter`) or `limit_reached`, that part is outside the user's plan; say so and keep the rest. Uploading a logo or photos and deleting a kit are done in the Oktio.app editor.
