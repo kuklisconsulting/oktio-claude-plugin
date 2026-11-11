@@ -9,7 +9,7 @@ An Oktio Verified certificate is a public page with the user's certified 90-day 
 
 **Choose what it carries.** Before issuing, ask whether the next certificate should include the optional groups and set them with `update_certificate_settings`: `includeAudience` (aggregated audience), `includeReachSplit` (reach from followers and non-followers), `includeStories`. Also there: `showOnMediaKits` and `showOnBioLink` (show the Oktio Verified block on the user's media kits and Bio Link page), `listable` (let search engines list the certificate page; off by default) and `autoRenew` (a new certificate every 7 days).
 
-**Issue.** Tell the user that issuing publishes a certificate page anyone with the link can open, and ask for a yes. Then call `issue_certificate` with `consent: true` (the optional groups can also be passed there). If it answers that a certificate cannot be issued yet, give the time from the answer.
+**Issue.** Tell the user that issuing publishes a certificate page anyone with the link can open, and ask for a yes. Then call `issue_certificate` with `consent: true`. The optional groups can also be passed there: `true` puts a group in, `false` leaves it out, and all three `false` means only the core metrics; a group left out of the call keeps the saved setting. What is sent is saved for the next certificate, as in the app. Say which groups will be on the certificate before you call it. If it answers that a certificate cannot be issued yet, give the time from the answer.
 
 **Share.** Give the verify URL for a pitch or an e-mail, the badge for a website, and the QR code for a printed media kit or a slide. In a brand pitch, one sentence is enough: the numbers are certified by Oktio Verified and the link lets the brand check them.
 
