@@ -25,6 +25,7 @@ Oktio.app is an analytics and creator toolkit for Instagram professional account
 | `giveaway-draw` skill | Draw winners from a post's comments after you confirm the rules, share the public proof page, make the winner video and each winner's own "I won" story video, and follow the render until the link is ready |
 | `auto-reply-setup` skill | Set up an auto-reply to comments, direct messages or first messages, test an AI-written reply on a sample comment, switch it on after you confirm, pause it or delete it after a preview and your yes |
 | `verified-profile` skill | Issue your Oktio Verified certificate, choose what it includes and where it is shown, share its link, badge or QR code, see how often brands checked it, and answer brands' verification requests after you confirm |
+| `account-contact-email` skill | Read and change your contact e-mail after you confirm it, understand the verification link and resend it, and see which profiles this connection can work on |
 
 ## Requirements
 
