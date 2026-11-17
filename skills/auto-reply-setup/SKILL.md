@@ -19,6 +19,6 @@ Comment and DM rules can also take `blacklist` words that block a reply, a time 
 
 **Switch on.** Show the user the rule in plain words (which post or keyword, what is sent, public or private, when) and ask for a clear yes. Then call `set_automation_active` with `active: true`. From then on it answers people until it is paused (`active: false`).
 
-**Change or remove.** `update_auto_reply` changes only the fields sent. `delete_automation` removes a rule for good (replies already sent stay on Instagram); ask before deleting.
+**Change or remove.** `update_auto_reply` changes only the fields sent. `delete_automation` removes a rule for good (replies already sent stay on Instagram) in two steps: call it without `confirm` (nothing changes; it answers a preview of what goes and a `confirmToken`), show the preview to the user, and call again with `confirm: true` and that `confirmToken` (valid 10 minutes, once) only after the user explicitly says yes; the preview names the rule, whether it is on and how many replies it has sent.
 
 Creating, changing and testing auto-replies needs Oktio Pro; on the free plan these tools answer `upgrade_required`, so say that auto-replies are outside the user's plan (existing ones can still be listed, paused and deleted). Limits (`AUTOMATION_LIMIT_REACHED`: 10 per post, 200 per account) and errors such as `MEDIA_NOT_OWNED` (not the user's own post) or `WELCOME_EXISTS` are explained in plain words. Replies are only sent to people who interact with the user; never send anything on your own initiative.
