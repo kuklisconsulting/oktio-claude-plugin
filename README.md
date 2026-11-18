@@ -26,6 +26,7 @@ Oktio.app is an analytics and creator toolkit for Instagram professional account
 | `auto-reply-setup` skill | Set up an auto-reply to comments, direct messages or first messages, test an AI-written reply on a sample comment, switch it on after you confirm, pause it or delete it after a preview and your yes |
 | `verified-profile` skill | Issue your Oktio Verified certificate, choose what it includes and where it is shown, share its link, badge or QR code, see how often brands checked it, and answer brands' verification requests after you confirm |
 | `account-contact-email` skill | Read and change your contact e-mail after you confirm it, understand the verification link and resend it, and see which profiles this connection can work on |
+| `data-exports-and-videos` skill | See your Data exports (your data in your own BigQuery, Cloud Storage or S3), read their run history and run one now when you ask; list and follow your videos and delete one only after a preview and your yes |
 
 ## Requirements
 
