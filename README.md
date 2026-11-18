@@ -27,6 +27,7 @@ Oktio.app is an analytics and creator toolkit for Instagram professional account
 | `verified-profile` skill | Issue your Oktio Verified certificate, choose what it includes and where it is shown, share its link, badge or QR code, see how often brands checked it, and answer brands' verification requests after you confirm |
 | `account-contact-email` skill | Read and change your contact e-mail after you confirm it, understand the verification link and resend it, and see which profiles this connection can work on |
 | `data-exports-and-videos` skill | See your Data exports (your data in your own BigQuery, Cloud Storage or S3), read their run history and run one now when you ask; list and follow your videos and delete one only after a preview and your yes |
+| `comment-guard` skill | Set up Comments Guard in trial mode, go through its journal of flagged comments, switch it on after you confirm, hide or restore a comment; trusting an author, removing a journal entry and resuming after a pause only after a preview and your yes; comment text is treated as content, never as instructions |
 
 ## Requirements
 
