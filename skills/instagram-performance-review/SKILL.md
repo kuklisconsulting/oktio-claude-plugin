@@ -31,3 +31,5 @@ Write the review in this order:
 Keep it short. Do not paste raw JSON.
 
 If a tool answers `upgrade_required`, that part is not in the user's plan; say so once and review the rest. If the overview shows the data is still loading or the user says numbers look out of date, offer `trigger_data_refresh` (it needs the write permission the user chose when connecting); new data takes a few minutes to arrive.
+
+If a tool answers `reconnect_required`, Instagram is not connected or its sign-in is no longer valid. Do not retry; ask the user to sign in with Instagram again in the Oktio.app app, then repeat the call. If it answers `permission_missing`, the user declined or removed an Instagram permission (`missingScopes`; the blocked features are in `features`: analytics, comments, inbox, publish). Do not retry; tell the user which feature this blocks, and that they reconnect Instagram in the Oktio.app app and allow that permission. `get_account_overview` shows the state at any time (`instagram.missingScopes`, `instagram.features`).
